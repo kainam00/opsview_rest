@@ -82,7 +82,7 @@ host = connection.create(
   :name => "foobar",
   :ip => "192.168.1.2",
   :hostgroup => "Monitoring Servers",
-  :hosttemplates => [ "OS - Unix Base", "Network - Base" ],
+  :hosttemplates => [ :name => "OS - Unix Base", :name => "Network - Base" ],
   :type => :host,
   :replace => false
 
